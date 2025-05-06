@@ -1,4 +1,4 @@
-# ProjectTemplate
+# Road Accidents project
 
 ## Presentation and Installation
 
