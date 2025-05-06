@@ -14,7 +14,7 @@ This project was developed by the following team :
 
 You can browse and run the [notebooks](./notebooks). 
 
-You will need to install the dependencies (in a dedicated environment) for running the scripts and the streamlit app:
+You will need to install the dependencies (in a dedicated environment) for running the scripts and the streamlit app. It is highly recommended to use Conda:
 
 For Linux:
 ```
@@ -23,10 +23,14 @@ conda env create -f environment_linux.yml
 
 then, you have to activate the environment:
 ```
-conda activate seeing_forecast
+conda activate ml_env_linux
 ```
 
 For Windows:
 ```
 conda env create -f environment_win.yml
+```
+to activate the environment using conda:
+```
+ml_env_linux
 ```
