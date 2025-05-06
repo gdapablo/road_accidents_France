@@ -14,23 +14,19 @@ This project was developed by the following team :
 
 You can browse and run the [notebooks](./notebooks). 
 
-You will need to install the dependencies (in a dedicated environment) :
+You will need to install the dependencies (in a dedicated environment) for running the scripts and the streamlit app:
 
+For Linux:
 ```
-pip install -r requirements.txt
-```
-
-## Streamlit App
-
-**Add explanations on how to use the app.**
-
-To run the app (be careful with the paths of the files in the app):
-
-```shell
-conda create --name my-awesome-streamlit python=3.9
-conda activate my-awesome-streamlit
-pip install -r requirements.txt
-streamlit run app.py
+conda env create -f environment_linux.yml
 ```
 
-The app should then be available at [localhost:8501](http://localhost:8501).
+then, you have to activate the environment:
+```
+conda activate seeing_forecast
+```
+
+For Windows:
+```
+conda env create -f environment_win.yml
+```
