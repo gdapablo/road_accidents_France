@@ -34,3 +34,11 @@ to activate the environment using conda:
 ```
 acc_win
 ```
+
+## Streamlit app
+
+You can visualise our project using Streamlit. The required dependencies are already install in the yml files. With the environment activated you just need to run the following command in the Streamlit folder [streamlit_app](./streamlit_app):
+
+```
+streamlit run streamlit_app
+```
