@@ -32,5 +32,5 @@ conda env create -f environment_win.yml
 ```
 to activate the environment using conda:
 ```
-ml_env_linux
+acc_win
 ```
